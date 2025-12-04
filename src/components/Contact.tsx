@@ -6,14 +6,11 @@ export function Contact() {
     <section id="contact" className="py-24 bg-neutral-900">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-14">
           <div className="inline-block px-4 py-1 border border-amber-500/30 bg-amber-500/5 mb-4">
             <span className="text-amber-500 tracking-widest text-xs">CONTÁCTANOS</span>
           </div>
-          <h2 className="text-4xl md:text-5xl mb-4">Agenda Tu Cita</h2>
-          <p className="text-neutral-400 max-w-2xl mx-auto">
-            Estamos listos para convertir tu visión en realidad. Ponte en contacto con nosotros.
-          </p>
+          <h2 className="text-4xl md:text-5xl mb-6">Agenda Tu Cita</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

@@ -47,14 +47,11 @@ export function About() {
             <h2 className="text-4xl md:text-5xl mb-6">Arte que Perdura</h2>
 
             <p className="text-neutral-400 mb-6 leading-relaxed">
-              Noir Studio nace de la pasión por el arte corporal y el compromiso con la excelencia.
-              Somos un equipo de artistas dedicados que transforman historias personales en obras maestras permanentes.
+              En Noir Studio, creemos que cada tatuaje es un compromiso permanente. Somos artistas dedicados a traducir tu visión en un diseño único. Nuestra prioridad es fusionar la excelencia artística con los más altos estándares de higiene y profesionalismo.
             </p>
 
             <p className="text-neutral-400 mb-8 leading-relaxed">
-              Cada cliente es único, y cada tatuaje que creamos es una colaboración íntima entre
-              artista y portador. Nos enorgullecemos de mantener los más altos estándares de
-              profesionalismo, higiene y calidad artística.
+              Colaboramos estrechamente contigo, asegurando que el resultado sea una obra maestra que contarás con orgullo.
             </p>
 
             {/* Values */}
@@ -92,13 +89,6 @@ export function About() {
                 );
               })}
             </div>
-
-            <a
-              href="#contact"
-              className="inline-block px-8 py-4 border border-amber-500 text-amber-500 hover:bg-amber-500/10 transition-all duration-300 tracking-wider"
-            >
-              CONOCE AL EQUIPO
-            </a>
           </motion.div>
         </div>
       </div>

@@ -5,12 +5,12 @@ const services = [
   {
     icon: Palette,
     title: "Diseño Personalizado",
-    description: "Trabajamos contigo para crear un diseño único que refleje tu personalidad y visión.",
+    description: "Trabajamos contigo para crear un diseño único que refleje tu personalidad.",
   },
   {
     icon: Sparkles,
-    title: "Estilos Diversos",
-    description: "Realismo, geométrico, tradicional, blackwork y más. Dominamos múltiples técnicas.",
+    title: "Estilos Variados",
+    description: "Realismo, blackwork, old school y más. Manejemos múltiples estilos.",
   },
   {
     icon: Shield,
@@ -20,7 +20,7 @@ const services = [
   {
     icon: Clock,
     title: "Consultas Gratuitas",
-    description: "Agenda una consulta sin compromiso para discutir tu proyecto y resolver dudas.",
+    description: "Agenda una consulta sin compromiso para conocer tu idea y resolver tus dudas.",
   },
 ];
 
@@ -57,8 +57,8 @@ export function Services() {
                     <Icon className="text-amber-500" size={28} />
                   </div>
                 </div>
-                <h3 className="text-xl mb-3 text-neutral-100">{service.title}</h3>
-                <p className="text-neutral-400 leading-relaxed">{service.description}</p>
+                <h3 className="text-xl mb-3 text-neutral-100 text-center">{service.title}</h3>
+                <p className="text-neutral-400 leading-relaxed text-center">{service.description}</p>
               </motion.div>
             );
           })}
@@ -87,7 +87,7 @@ export function Services() {
               >
                 <div className="text-5xl text-amber-500 mb-4">{step.number}</div>
                 <h4 className="text-xl mb-2">{step.title}</h4>
-                <p className="text-neutral-400 text-sm">{step.desc}</p>
+                <p className="text-neutral-400 text-base">{step.desc}</p>
               </motion.div>
             ))}
           </div>

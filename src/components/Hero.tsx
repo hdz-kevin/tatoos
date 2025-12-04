@@ -30,7 +30,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-neutral-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Transformamos tus ideas en obras de arte permanentes. Experiencia, profesionalismo y creatividad en cada trazo.
+            Transformamos tus ideas en obras de arte permanentes
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

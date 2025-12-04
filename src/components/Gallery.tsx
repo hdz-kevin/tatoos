@@ -61,8 +61,7 @@ export function Gallery() {
             Galería de Arte
           </h2>
           <p className="text-neutral-400 max-w-2xl mx-auto">
-            Cada tatuaje es una historia única. Explora algunos
-            de nuestros trabajos más destacados.
+            Un vistazo de nuestros mejores trabajos
           </p>
         </div>
 
