@@ -85,7 +85,7 @@ export function Services() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-5xl text-amber-500/20 mb-4">{step.number}</div>
+                <div className="text-5xl text-amber-500 mb-4">{step.number}</div>
                 <h4 className="text-xl mb-2">{step.title}</h4>
                 <p className="text-neutral-400 text-sm">{step.desc}</p>
               </motion.div>
