@@ -110,9 +110,9 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="mb-1">Ubicación</h4>
-                  <p className="text-neutral-400 text-sm">
-                    Calle del Arte, 123<br />
-                    28001 Madrid, España
+                  <p className="text-neutral-300 text-sm">
+                    Avenida Miguel Hidalgo #503<br />
+                    Teziutlán, Puebla
                   </p>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="mb-1">Teléfono</h4>
-                  <p className="text-neutral-400 text-sm">+34 600 123 456</p>
+                  <p className="text-neutral-300 text-sm">+52 222 123 456</p>
                 </div>
               </div>
 
@@ -133,7 +133,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="mb-1">Email</h4>
-                  <p className="text-neutral-400 text-sm">info@noirstudio.com</p>
+                  <p className="text-neutral-300 text-sm">noirstudio@gmail.com</p>
                 </div>
               </div>
 
@@ -143,10 +143,10 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="mb-1">Horario</h4>
-                  <p className="text-neutral-400 text-sm">
-                    Lunes - Viernes: 12:00 - 20:00<br />
+                  <p className="text-neutral-300 text-sm">
+                    Lunes - Viernes: 10:00 - 20:00<br />
                     Sábado: 11:00 - 19:00<br />
-                    Domingo: Cerrado
+                    Domingo: 11:00 - 15:00
                   </p>
                 </div>
               </div>
