@@ -31,8 +31,6 @@
     @apply bg-neutral-950 text-neutral-100 antialiased;
   }
 
-/* ...existing code... */
-
   h1 {
     font-weight: 700;
     letter-spacing: -0.02em;
